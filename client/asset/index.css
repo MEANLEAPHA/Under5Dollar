@@ -1,0 +1,805 @@
+body{
+    margin:0%;
+    background-color: rgb(255, 255, 255);
+  
+}
+.forIcon{
+    width:100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: auto;
+    position: relative;
+border-top: #0e87fc 2px solid;
+border-bottom: #0e87fc 2px solid;
+  }
+  .forIcon .forShopicon{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    background-image:url(../img/logoName.png);
+    background-size: cover;
+    background-position: center;
+   
+  }
+  .forIcon #cartt{
+    width: auto;
+    height: auto;
+  
+    display: flex;
+    border:none;
+    background:none;
+    padding-top: 21px;
+    padding-left: 10px;
+  }
+  .forIcon #cartt .fa-cart-shopping {
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-top:4px;
+    font-size: small;
+    margin-right: 2px;
+    
+  }
+  
+  .forIcon #option{
+    height: 20%;
+background: none;
+margin-top: 22px;
+margin-left: 5px;
+font-weight:bold;
+border:none;
+background:none;
+    
+  }
+  .forIcon .fa-user{
+   
+    
+    position: absolute;
+ 
+    color: #0e87fc;
+   font-size: x-large;
+   padding-right: 10px;
+ padding-top: 21px;
+right: 0px;
+   cursor: pointer;
+  
+  }
+  .forNotfication{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: rgb(254, 43, 43);
+    background-color:rgb(254, 43, 43); 
+    position: absolute;
+  transform: translate(105px,-3px);
+  display: none;
+
+  }
+
+  
+
+
+
+
+
+  
+
+
+ #forNav{
+    position: relative;
+    width: 100%;
+    height:550px;
+    background-color: rgb(255, 255, 255);
+    display:none;
+
+}
+#forNav h3{
+    color: rgb(0, 0, 0);
+    text-align: start;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: medium;
+    text-shadow: 1px 1px 2px rgb(79, 72, 72);
+}
+#forNav #CCB{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+#forNav #CCB #for-add-to-cart{
+   
+    width:50% ;
+    height: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: scroll;
+ } 
+ .for-add-to-cards{
+    width: 175px;
+    height: 250px;
+    background-color: rgb(224, 195, 157);
+    border-radius: 20px;
+    margin-top: 5px;
+    border: 1px black solid;
+    margin-left: 25px;
+  ;
+}
+ .for-add-to-cards img{
+    width: 100%;
+    height: 55%;
+    border-radius: 20px;
+    
+  }
+ 
+ .for-add-to-cards .forText{
+    
+    height: auto;
+    text-align: center;
+
+    padding-top: px;
+
+    
+ }
+ .for-add-to-cards .price{
+    color: #ea5104;
+ }
+ .for-add-to-cards .forBtnNum{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+
+   
+ }
+ .for-add-to-cards .forBtnNum .numforbtn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 7px;
+    margin-top: 5px;
+    
+    
+ }
+ .for-add-to-cards .forBtnNum .numforbtn .prevNbtn{
+    width: 25px;
+    height: 25px;
+    font-size: small;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+  
+ }
+ .for-add-to-cards .forBtnNum .numforbtn .nextNbtn{
+    width: 25px;
+    height: 25px;
+    font-size: small;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 0;
+margin-top: 0;
+ }
+ .for-add-to-cards .forCancel{
+    padding-top: 10px;
+text-align: center;
+color:red;
+top: 0;
+margin-top: 0;
+cursor: pointer;
+ }
+
+
+ #forNav #CCB #forCloseAndBuy{
+    width: 50%;
+    height: 550px;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+
+ }
+
+ #forNav #forCloseAndBuy #close{
+    padding-left: 10px;
+font-size: x-large;
+padding-top: 10px;
+color: rgb(0, 0, 0);
+font-style: bold;
+border-radius: 10px;
+float: left;
+cursor: pointer;
+
+ }
+#forNav #forCloseAndBuy #buy{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-style: bold;
+border-radius: 10px;
+    }
+    #forNav #CCB #forCloseAndBuy #address{
+
+        width: 100%;
+    position: absolute;
+        height: 100%;
+    }
+    #forNav #CCB #forCloseAndBuy #address p{
+        text-align: center;
+        font-weight: bold;
+    }
+    #forNav #forCloseAndBuy #address #shipadd{
+     margin: auto;
+width: 90%;
+height:50% ;
+border: 1px solid rgb(43, 42, 42);
+background: rgba(186, 180, 180, 0.219);
+backdrop-filter: blur(100px);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding-left: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+    }
+#forNav #forCloseAndBuy #address #shipadd #username{
+        width: 90%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #gmail{
+        width: 90%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #tele{
+        width: 90%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #state{
+        width: 91%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #apartment{
+        width: 90%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #ordernote{
+        width: 90%;
+       
+    }
+  #address #orderSummery{
+width: 100%;
+height: auto;
+
+
+    }
+    #address #orderSummery #sumCost{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: row;
+    }
+    #address #orderSummery #sumCost #total{
+        display: flex;
+        width: 40%;
+        height: 180px;
+      
+        display: grid;
+        padding: 5px;
+    }
+    
+    #address #orderSummery #sumCost #QRcode{
+    
+        width: 60%;
+        height: 194px;
+        display: grid;
+
+        margin: 0%;
+        padding: 0%;
+    }
+    #address #orderSummery #sumCost #QRcode p{
+        margin: 0%;
+        padding: 0%;
+    }
+    #address #orderSummery #sumCost #QRcode #forQR{
+        width: 140px;
+        height: 140px;
+ padding-bottom: 20px;
+ justify-content: center;
+ margin: auto;
+    }
+  
+ #forContainer #forNavbar{
+ position: relative;
+    width: 150px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.219);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+
+   transform: translateX(1374px);
+    display: none;
+    
+    
+}
+#forContainer #forNavbar ol{
+padding-left: 5px;
+display: grid;
+gap: 15px;
+justify-content: space-around;
+text-align: center;
+list-style: none;
+
+
+}
+#forContainer #forNavbar ol #a1{
+font-size: small;
+margin: auto;
+color: white;
+padding-left: 2px;
+padding-top: 10px;
+}
+#forContainer #forNavbar ol #a2{
+    font-size: small;
+    margin: auto;
+    color: white;
+    padding-left: 2px;
+    padding-top: 30px;
+    }
+    #forContainer #forNavbar ol #a3{
+        font-size: small;
+        margin: auto;
+        color: white;
+        padding-top: 30px;
+        padding-left: 2px;
+        }
+#forContainer #forNavbar ol #i1{
+font-size: small;
+padding-left: 4px;
+color: rgb(255, 234, 0);
+}
+#forContainer #forNavbar ol #i2{
+font-size: small;
+padding-left: 4px;
+color: greenyellow;
+}
+#forContainer #forNavbar ol #i3{
+    font-size: small;
+    padding-left: 4px;
+    color: rgb(204, 166, 13);
+}
+
+ .ContainNav{
+    width: 100%;
+    background-color: #e2e0e0;
+    backdrop-filter:blur(10px);
+    height: auto;
+    margin: auto;
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+  
+  }
+ .ContainNav .NavOl{
+    width:90%;
+    height: auto;
+    background-color: #e2e0e0;
+    backdrop-filter:blur(10px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    gap:30px;
+    margin: auto;
+
+    padding: 5px;
+  }
+
+  .ContainNav .NavOl #h{
+background-color: #000000;
+color: white;
+width: 125px;
+height: 30px;
+border-radius: 10px;
+  }
+  .ContainNav .NavOl #t{
+    width: 125px;
+    height: 30px;
+border-radius: 10px;
+background-color: #ea5104;
+color:#ffffff;
+  }
+  .ContainNav .NavOl #n{
+    width: 125px;
+    height: 30px;
+border-radius: 10px;
+background-color: #0e87fc;
+color: #ffffff;
+
+  }
+  .ContainNav .NavOl #d{
+    width: 125px;
+height: 30px;
+border-radius: 10px;
+background-color: #f1e025;
+color: #ffffff;
+  }
+ .ContainNav .NavOl  #d .fa-fire{
+    color: #ea5104;
+   
+  }
+ .ContainNav .NavOl #n .fa-plus{
+    color: rgb(119, 188, 14)
+   
+  }
+  .ContainNav .NavOl #h .fa-house{
+    color: #ffffff;
+   
+  }
+ .ContainNav .NavOl #t .fa-arrow-trend-up{
+    color: #f1e025;
+   
+  }
+  
+  .slider{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+img.displaySlide{
+display: block;
+}
+.next {
+    display: none;
+}
+.prev {
+    display: none;
+    
+}
+
+  
+  
+  #ExContainer{
+   
+    width: 100%;
+    height: auto;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+  }
+  #ExContainer .con1{
+    position: relative;
+  width:100%;
+  height: 500px;
+  overflow: scroll;
+ 
+  background-color: rgb(255, 255, 255);
+  
+  }
+  #ExContainer .con2{
+    position: relative;
+    width:100%;
+    height: 500px;
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+    display: none;
+  
+  }
+  #ExContainer .con3{
+    position: relative;
+    width:100%;
+    height: 500px;
+    overflow: scroll;
+  background-color: rgb(255, 255, 255);
+    display: none;
+  }
+  #ExContainer .con4{
+    position: relative;
+    width:100%;
+    height: 500px;
+    overflow: scroll;
+    background-color: rgb(255, 255, 255);
+  display: none;
+  }
+
+  
+  #bigContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#bigContainer #list{
+width: auto;
+height:auto;
+margin: 0%;
+padding: 0%;
+background-color: #e2e0e0;
+backdrop-filter:blur(10px);
+
+}
+#bigContainer #list #containlist{
+list-style: none;
+text-decoration: none;
+display: flex;
+color:#000000;
+flex-direction: column;
+padding: 20px;
+gap: 30px;
+cursor: pointer;
+
+}
+#bigContainer #containBox{
+width: 100%;
+height: 500px;
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(255, 255, 255);
+
+}
+#bigContainer #containBox #box1{
+width: 100%;
+height: 100%;
+    overflow: scroll;
+background-color: rgb(255, 255, 255);
+display:'none';
+}
+#bigContainer #containBox #box2{
+width: 100%;
+height: 100%;
+overflow: scroll;
+background-color: rgb(255, 255, 255);
+display:'none';
+}
+#bigContainer #containBox #box3{
+width: 100%;
+height: 100%;
+overflow: scroll;
+background-color: rgb(255, 255, 255);
+display:'none';
+}
+#bigContainer #containBox #box4{
+width: 100%;
+height: 100%;
+overflow: scroll;
+background-color: rgb(255, 255, 255);
+display:'none';
+}
+#bigContainer #containBox #box5{
+width: 100%;
+height: 100%;
+overflow: scroll;
+background-color: rgb(255, 255, 255);
+display:'none';
+}
+#bigContainer #containBox #box6{
+width: 100%;
+height: 100%;
+overflow: scroll;
+background-color: rgb(255, 255, 255);
+display:'none';
+}
+#bigContainer #containBox #fbox{
+  width: 96%;
+  height: auto;
+      display: flex;
+     position: relative;
+   background-color: #ffffff;
+      flex-wrap: wrap;
+  }
+  #bigContainer #containBox #fbox .ffbox{
+  width: 145px;
+  height: 200px;
+  margin: 5px;
+
+  background-color: rgb(224, 195, 157);
+  border-radius: 20px;
+  margin-top: 5px;
+  border: 1px black solid;
+
+
+}
+#bigContainer #containBox #fbox .ffbox .forImage{
+  width: 100%;
+  height: 60%;
+  border-radius: 20px;
+}
+#bigContainer #containBox #fbox .ffbox .altImage{
+width: 100%;
+height: 7%;
+text-align: center;
+padding: 0%;
+margin-top: 0%;
+font-weight: bold;
+}
+#bigContainer #containBox #fbox .ffbox .infoImage{
+  width: 100%;
+height: 18%;
+text-align: center;
+font-size: small;
+padding-top: 4px;
+overflow: visible;
+}
+#bigContainer #containBox #fbox .ffbox .btnImage{
+  width: 100%;
+  height: 12%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#bigContainer #containBox #fbox .ffbox .btnImage .price{
+  padding-top: 2px;
+}
+#bigContainer #containBox #fbox .ffbox .btnImage .add2cart2{
+  border-radius: 25px;
+  cursor: pointer;
+}
+#fbox{
+  width: 97.5%;
+  height: auto;
+      display: flex;
+     position: relative;
+margin: auto;
+padding: 6px;
+   background-color: #ffffff;
+      flex-wrap: wrap;
+  }
+#fbox .ffbox{
+  width: 145px;
+  height: 200px;
+  margin: 5px;
+
+  background-color: rgb(224, 195, 157);
+  border-radius: 20px;
+  margin-top: 5px;
+  border: 1px black solid;
+
+
+}
+#fbox .ffbox .forImage{
+  width: 100%;
+  height: 60%;
+  border-radius: 20px;
+}
+#fbox .ffbox .altImage{
+width: 100%;
+height: 7%;
+text-align: center;
+padding: 0%;
+margin-top: 0%;
+font-weight: bold;
+}
+#fbox .ffbox .infoImage{
+  width: 100%;
+height: 18%;
+text-align: center;
+font-size: small;
+padding-top: 4px;
+overflow: visible;
+}
+#fbox .ffbox .btnImage{
+  width: 100%;
+  height: 12%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#fbox .ffbox .btnImage .price{
+  padding-top: 2px;
+}
+#fbox .ffbox .btnImage .add2cart2{
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+    .footer{
+        width: 100%;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+      box-sizing: border-box;
+      padding-top: 1px;
+      }
+      .footer .footerbox{
+        width: 100%;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        display: flex;
+      flex-wrap: wrap;
+       
+      }
+      .footer .footerbox .sbox1{
+        width: 350px;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        padding: 10px;
+        flex-grow: 1;
+        flex-basis: 200;
+        text-align: center;
+      }
+      
+      .footer .footerbox .sbox1 .h5a{
+        color: white;
+      }
+      .footer .footerbox .sbox1 .h5a span{
+        color:yellow;
+      }
+      .footer .footerbox .sbox1 .h5a{
+        color: white;
+        text-transform: uppercase;
+      }
+      .footer .footerbox .sbox1 .h5a a {
+        color: white;
+      }
+      .footer .footerbox .bbox1{
+        width: 350px;
+        height: auto;
+        background-color: black;
+        text-align: center;
+        padding: 20px;
+        flex-grow: 1;
+        flex-basis: 200;
+      }
+      .footer .footerbox .bbox1 .h5B{
+        color: white;
+      }
+      .footer .footerbox .bbox1 .h5b{
+        color: white;
+      }
+      .footer .footerbox .sbox2{
+        width: 350px;
+        height: auto;
+        margin: auto;
+        background-color: rgb(0, 0, 0);
+        flex-grow: 1;
+        flex-basis: 200;
+        text-align: center;
+      }
+      .footer .footerbox .sbox2 .h5c{
+        color: white;
+      }
+      .footer .footerbox .sbox2 .forallicon{
+        width: 200px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 5px;
+      border-radius: 15px; 
+      }
+      .footer .footerbox .sbox2 .forallicon .facebook{
+        font-size: xx-large;
+        color: rgb(16, 16, 255)
+        ;margin-top: 4px;
+      }
+      .footer .footerbox .sbox2 .forallicon .inst{
+        font-size: xx-large;
+        color:rgb(240, 13, 225);
+        margin-top: 4px;
+      }
+      .footer .footerbox .sbox2 .forallicon .telegram{
+        font-size: xx-large;
+        color: rgb(106, 213, 252)
+        ;margin-top: 4px;
+      }
+      .footer .footerbox .sbox2 .forallicon .x{
+        font-size: xx-large;
+        color:rgb(0, 0, 0)
+        ;margin-top: 4px;
+        background-color: white;
+        border-radius: 30%;
+      }
+
